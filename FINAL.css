@@ -197,6 +197,9 @@ button{
     margin-top: 16px;
     padding-right: 128px;
     opacity: 0.5;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .header__img--wrapper{
@@ -239,6 +242,11 @@ button{
         font-size: 14px;
         letter-spacing: 0.05em;
     }
+
+    .header__customers{
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }
 
 /* media large */
@@ -275,7 +283,8 @@ button{
     }
 
     .header__customers{
-        padding-right: 0px;
+        max-width: 80%;
+        margin: 0 auto;
     }
 
     .header__customers--title,
