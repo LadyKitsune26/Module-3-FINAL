@@ -563,8 +563,7 @@ button{
 
 .plan:nth-child(1), 
 .plan__stripe,
-.plan:nth-child(1)
-.plan__button{
+.plan__button--first{
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
@@ -662,7 +661,7 @@ button{
     padding-bottom: 2rem;
 }
 
-.plan__button{
+.plan__button, .plan__button--first{
     border-radius: 0.25rem;
     background-color: rgb(100 21 255);
     padding: 0.75rem 2rem;
