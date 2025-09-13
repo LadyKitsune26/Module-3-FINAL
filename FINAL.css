@@ -561,9 +561,10 @@ button{
     box-shadow: rgb(0, 0, 0, 0) 0px 0px 0px 0px, rgb(0, 0, 0, 0) 0px 0px 0px 0px, rgb(0, 0, 0, 0.1) 0px 1px 3px 0px, rgb(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
-.plan:nth-child(1), 
+.plan:nth-child(2), 
 .plan__stripe,
-.plan__button--first{
+.plan:nth-child(1)
+.plan__button{
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
@@ -661,7 +662,7 @@ button{
     padding-bottom: 2rem;
 }
 
-.plan__button, .plan__button--first{
+.plan__button{
     border-radius: 0.25rem;
     background-color: rgb(100 21 255);
     padding: 0.75rem 2rem;
@@ -676,6 +677,18 @@ button{
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
+
+.plan:nth-child(2){
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button{
+    
+}
+
+
+
+
 
 
 /* media small */
