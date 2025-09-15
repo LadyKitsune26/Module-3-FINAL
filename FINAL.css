@@ -1040,6 +1040,7 @@ button{
 .start__buttons{
     display: flex;
     justify-content: flex-end;
+    z-index: 100;
 }
 
 .start__button{
@@ -1056,15 +1057,12 @@ button{
 
 .start__button--1{
     background: #f56565;
-    box-shadow: (0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-    rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     margin-right: 32px;
     transition: all 300ms ease;
 }
 
 .start__button--1:hover{
     background-color: rgb(229, 62, 62);
-    margin-right: 32px;
     transition: all 300ms ease;
 }
 
@@ -1150,6 +1148,11 @@ footer{
     background: #fff;
     transition: all 300ms ease;
     opacity: 0;
+    height: 2px;
+}
+
+.footer__column--link:hover:after{
+    opacity: 1;
 }
 
 .footer__column--link:nth-child(2){
@@ -1208,6 +1211,10 @@ footer{
     z-index: 2;
     cursor: pointer;
     transition: all 300ms ease;
+}
+
+.footer__social--link:hover{
+    background-color: rgb(203, 213, 224);
 }
 
 .footer__social--link svg{
@@ -1534,6 +1541,14 @@ footer{
         margin-top: 2.5rem;
     }
 
+    .value__dollar-sign{
+        max-width: 24px;
+    }
+
+    .value__breifcase{
+        max-width: 24px;
+    }
+
     .plans{
         flex-direction: column;
         align-items: center;
@@ -1613,6 +1628,12 @@ footer{
 
     .testimonials__description{
         width: calc(100% - 40%);
+    }
+
+    .step__grid{
+        height: 5rem;
+        width: 5rem;
+        bottom: -50px;
     }
 }
 
