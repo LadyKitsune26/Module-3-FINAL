@@ -73,6 +73,8 @@ section{
 
 
 .nav__link--primary{
+    font-size: 14px;
+    font-weight: 600;
     margin: 0;
     padding: 10px 32px;
     margin-top: 2px;
