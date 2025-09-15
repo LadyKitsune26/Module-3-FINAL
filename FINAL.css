@@ -637,6 +637,14 @@ button{
     margin-top: 48px;
 }
 
+.value__dollar-sign{
+    max-width: 24px;
+}
+
+.value__breifcase{
+    max-width: 24px;
+}
+
 /* plans */
 
 #pricing .row{
@@ -1541,14 +1549,6 @@ footer{
 
     .value{
         margin-top: 2.5rem;
-    }
-
-    .value__dollar-sign{
-        max-width: 24px;
-    }
-
-    .value__breifcase{
-        max-width: 24px;
     }
 
     .plans{
